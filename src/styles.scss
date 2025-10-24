@@ -14,3 +14,26 @@
   --color-orange-juice: #ef6f3c;
   --color-green-olive: #afab23;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--color-black);
+  background-color: var(--color-baby-pink);
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 25px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
